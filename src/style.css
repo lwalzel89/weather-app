@@ -1,12 +1,14 @@
 body {
-  background-color: #f9f7fe;
-  font-family: "Roboto", sans-serif;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/929/original/%E2%80%94Pngtree%E2%80%94sky_weather_clouds_cloudscape_background_370448.png?1708278744);
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 a {
-  color: #885df1;
+  color: #c69ae0;
 }
 .app {
-  background-color: white;
+  background-color: #f7f4fc;
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
@@ -26,7 +28,7 @@ header {
   width: 80%;
 }
 .search-form-button {
-  background-color: #885df1;
+  background-color: #c69ae0;
   border: none;
   border-radius: 6px;
   padding: 15px 30px;
@@ -34,6 +36,7 @@ header {
   color: white;
   font-size: 16px;
 }
+
 main {
   padding: 30px 0;
 }
@@ -54,7 +57,7 @@ main {
   color: rgba(39, 33, 66, 0.4);
 }
 .weather-app-details strong {
-  color: #f65282;
+  color: #d98fe8;
 }
 
 .weather-app-temperature-container {
@@ -97,7 +100,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #d98fe8;
   margin-top: 10px;
   display: flex;
   justify-content: center;
