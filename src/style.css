@@ -1,14 +1,14 @@
 body {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/929/original/%E2%80%94Pngtree%E2%80%94sky_weather_clouds_cloudscape_background_370448.png?1708278744);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/424/original/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg?1708733363);
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 a {
-  color: #c69ae0;
+  color: #8c6096;
 }
 .app {
-  background-color: #f7f4fc;
+  background-color: rgba(247, 244, 252, 0.5);
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
@@ -20,7 +20,7 @@ header {
   padding: 0 0 30px 0;
 }
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: rgba(249, 247, 254, 0.5);
   font-size: 16px;
   border: none;
   border-radius: 6px;
@@ -28,7 +28,7 @@ header {
   width: 80%;
 }
 .search-form-button {
-  background-color: #c69ae0;
+  background-color: #8c6096;
   border: none;
   border-radius: 6px;
   padding: 15px 30px;
@@ -36,7 +36,11 @@ header {
   color: white;
   font-size: 16px;
 }
-
+.search-form-button:hover {
+  background-color: rgba(140, 96, 150, 0.5);
+  animation: 0.6s ease-in-out;
+  cursor: pointer;
+}
 main {
   padding: 30px 0;
 }
@@ -57,7 +61,7 @@ main {
   color: rgba(39, 33, 66, 0.4);
 }
 .weather-app-details strong {
-  color: #d98fe8;
+  color: #8c6096;
 }
 
 .weather-app-temperature-container {
@@ -100,7 +104,7 @@ main {
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #d98fe8;
+  color: #8c6096;
   margin-top: 10px;
   display: flex;
   justify-content: center;
